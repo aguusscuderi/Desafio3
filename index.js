@@ -53,7 +53,7 @@ app.on('error', err => {console.log('Fallo la conexion al servidor!', err)})
 
 
 
-    // Instancia y ejecuciones.
+    // Instancia y ejecucioness.
 const firstFile = new Contenedor('productos.txt')
 setTimeout(() => {firstFile.save(prod1)},1000)
 setTimeout(() => {firstFile.save(prod2)},1100)
